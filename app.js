@@ -5,6 +5,7 @@ window.onload = () => {
     const msnry = new Masonry(grid, {
         itemSelector: '.grid-item',
         columnWidth: 200,
-        gutter: 0
+        rowWidth: 200,
+        // gutter: 0
     });
 };

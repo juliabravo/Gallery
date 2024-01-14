@@ -16,7 +16,6 @@
     color: #000;
     font-size: 20px;
     letter-spacing: 5px;
-    /* font-weight: 100; */
   }
 
   .footer {
@@ -33,10 +32,10 @@
     flex-wrap: wrap;
     justify-content: center; 
     align-items: center;
-    gap: 10px; 
+    gap: 0px 5px; 
     /* max-width: 1230px; */
     margin: 0 auto;
-    padding: 20px 10px ;
+    padding: 20px 40px ;
   }
   
   .gallery img {
@@ -52,6 +51,6 @@
   } */
 
   .gallery img:hover {
-    transform: scale(1.75);
+    transform: scale(1.25);
   }
   
